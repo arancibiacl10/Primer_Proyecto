@@ -1,1 +1,38 @@
-"contenido nuevo" 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>El jueves parte el mundial</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: yellow;      /* Fondo amarillo */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .contenedor {
+      border: 5px solid green;       /* Bordes verdes */
+      padding: 40px 60px;
+      background-color: yellow;      /* Mantener el fondo amarillo dentro también */
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>El jueves parte el mundial</h1>
+  </div>
+</body>
+</html>
+
